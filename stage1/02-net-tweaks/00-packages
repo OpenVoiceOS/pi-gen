@@ -1,1 +1,14 @@
+firmware-atheros firmware-brcm80211 firmware-libertas firmware-misc-nonfree firmware-realtek
 netbase
+network-manager
+openssh-server
+raspberrypi-sys-mods
+usb-modeswitch
+bash-completion
+pkg-config
+libraspberrypi-dev
+usbutils
+policykit-1
+unzip zip
+udisks2
+ntfs-3g

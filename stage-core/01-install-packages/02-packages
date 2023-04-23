@@ -1,0 +1,6 @@
+sudo
+build-essential python3-dev swig libssl-dev libfann-dev portaudio19-dev libpulse-dev
+python3-pip python3-wheel python3-setuptools
+python-is-python3
+htop
+pulseaudio
