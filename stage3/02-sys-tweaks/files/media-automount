@@ -1,5 +1,6 @@
 #!/bin/bash
 #$1 = <dev>
+shopt -s expand_aliases
 
 # Default options to use for mounting
 AUTOMOUNT_OPTS='users'
