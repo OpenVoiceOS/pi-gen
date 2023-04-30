@@ -79,4 +79,7 @@ fi
 
 dpkg-reconfigure --frontend noninteractive locales
 
+sed -i 's/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen
+locale-gen
+
 EOF
