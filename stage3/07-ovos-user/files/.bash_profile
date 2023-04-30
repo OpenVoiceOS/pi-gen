@@ -1,5 +1,4 @@
 export TERM=xterm-xfree86
-export LANG="en_US.UTF-8"
 
 case :$PATH: in
   */home/ovos/.local/bin:*) ;;

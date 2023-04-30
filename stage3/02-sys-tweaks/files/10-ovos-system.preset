@@ -4,7 +4,8 @@ enable ssh.service
 enable resize2fs_once
 enable media-automount@.service
 
-enable ntp.service
+enable systemd-timesyncd.service
+
 disable apply_noobs_os_config.service
 disable userconfig.service
 disable systemd-networkd.socket

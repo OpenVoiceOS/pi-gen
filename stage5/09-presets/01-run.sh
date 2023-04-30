@@ -13,6 +13,9 @@ systemctl preset-all
 
 su -c "systemctl --user preset-all" --login ovos
 
+sed -i 's/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen
+locale-gen
+
 EOF
 
 # This is the compressed filename without .img extention

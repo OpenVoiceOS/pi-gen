@@ -1,1 +1,4 @@
 raspi-config
+systemd-timesyncd
+keyboard-configuration
+console-setup
