@@ -5,7 +5,7 @@ install -m 644 files/noclear.conf "${ROOTFS_DIR}/etc/systemd/system/getty@tty1.s
 install -v -m 644 files/fstab "${ROOTFS_DIR}/etc/fstab"
 
 # Create a ramdisk
-echo "tmpfs /ramdisk tmpfs rw,nodev,nosuid,size=20M 0 0" >> "${ROOTFS_DIR}/etc/fstab"
+echo "tmpfs /ramdisk tmpfs rw,nodev,nosuid,mode=0777,size=20M 0 0" >> "${ROOTFS_DIR}/etc/fstab"
 # TODO: setup swap space
 
 install -v -m 0644 files/97-ovos.conf "${ROOTFS_DIR}/etc/sysctl.d/97-ovos.conf"
